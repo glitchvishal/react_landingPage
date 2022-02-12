@@ -1,0 +1,17 @@
+.social>ul{
+    margin-right: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;  
+}
+
+.social>ul>li>a     {
+    color: black;
+}
+
+
+.social>ul>li{
+    margin: 10px;
+}
