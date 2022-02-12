@@ -72,8 +72,14 @@
     } */
 
     .main{
-        background-size: 1050px !important;
+        background-size: none !important;
     }
+
+    .content{
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+	}
 
     
     
