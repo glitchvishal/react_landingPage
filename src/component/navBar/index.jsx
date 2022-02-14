@@ -1,4 +1,5 @@
 import React,{ useState, useEffect } from 'react'
+import { GiHamburgerMenu } from "react-icons/gi"
 import './navbar.css';
 import Social from '../social'
 import logo from '../images/logo.png'
@@ -42,7 +43,11 @@ const Navbar = () => {
                     </a>
                 </li>
             </ul>
-            { !phone && <Social /> }
+
+            <div className="hamburger-menu">
+                    <GiHamburgerMenu />
+            </div>
+            {/* { !phone && <Social /> } */}
 
         </nav>
     </>

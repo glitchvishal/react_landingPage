@@ -72,3 +72,24 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+@media(max-width:1190px){
+    .features{
+		height:auto;
+    }
+
+    .container{
+		flex-wrap: wrap;
+	}
+
+    .box{
+		flex-grow: 1;
+	}
+}
+
+@media (max-width:970px) {
+    .features{
+        margin-bottom: 100px;
+    }
+}
+

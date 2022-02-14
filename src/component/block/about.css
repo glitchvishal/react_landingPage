@@ -67,12 +67,18 @@
     }
 
     .about{
-		justify-content: center;
+		/* justify-content: center;
         padding-top: 0px;
         text-align: center;
         border-top: 1px solid #00b7ff;
         border-bottom: 1px solid #00b7ff;
+        margin-top: 0px; */
+        justify-content: center;
+        padding-top: 0px;
+        text-align: center;
+        
         margin-top: 0px;
+	
 	}
 	.aboutText{
         width: 90%;
